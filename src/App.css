@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+body{  
+  background-color: #DC143C!important;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.background-img {
+  background-image: url('https://wallpapercave.com/wp/wp3739955.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10vh;
+  width: 85vw;
+  height: 85vh;
+  
+  
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.p-com{
+  position: relative;
+  left: -700px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mesg{
+  position: relative;
+  left: -250px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.mid-pic {
+  position: absolute;
+  left: 41.34%;
+  right: 41.34%;
+  top: 8%;
+  bottom: 45.33%;
+  height: 350px;
+  width: 277px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background: url('https://vignette.wikia.nocookie.net/highschooldxd/images/6/61/Volume_20_-_Rias.jpg/revision/latest/scale-to-width-down/700?cb=20150719063126');
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
